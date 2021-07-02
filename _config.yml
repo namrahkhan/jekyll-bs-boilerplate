@@ -1,0 +1,25 @@
+# site settings
+title: Recipes V1
+description: Some site description for header
+author:  Namrah Khan
+email: some@email.com
+phone: +92 000 0000000
+address: 2 - Some Address, Some City, Pakistan P.O# 12345
+
+# socials
+facebook: someid
+instagram: someid
+google: 
+youtube: 
+whatsapp: 
+twitter: someid
+
+# technicals
+baseurl: '/' #BASEURL specifies the root path of your site
+url: #URL specifies the actual domain name address for your website
+
+# build settings
+markdown: kramdown
+sass:
+  sass_dir: dev/css
+  style: compressed

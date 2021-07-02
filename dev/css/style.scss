@@ -1,0 +1,22 @@
+---
+---
+@import 'bs/bootstrap';
+
+// VARIABLES GO HERE
+$main-color: red;
+$secondary-color: green;
+$tertiary-color: orange;
+
+
+// CUSTOM CODE GOES HERE
+// CARDS
+#custom-cards{
+    .row{
+        .col{
+            .card{
+                background-image: url("{{ site.baseurl }}dev/img/dune.jpg");
+            }
+        }
+    }
+}
+
